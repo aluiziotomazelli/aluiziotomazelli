@@ -22,21 +22,20 @@ C/C++ - ESP-IDF - IoT - Hardware Integration
 ### Currently
 
 Learning embedded testing - Building agricultural IoT systems
+ 
+ ---
 
----
-
-#### WiFi Manager ESP-IDF component (Espressif Registry)
-
-- [Dev.to wifi_manager](https://dev.to/aluiziotomazelli/wifimanager-a-wi-fi-state-manager-for-esp-idf-ejg)
-
-- [wifi_manager](https://github.com/aluiziotomazelli/wifi_manager)
-
-- [WiFiManager ESP-IDF component](https://components.espressif.com/components/aluiziotomazelli/wifi_manager/versions/1.0.0/readme)
-
-
----
+### Featured Projects:
 
 #### Gothic household altar with prie-dieu
+> *“Wood structure replicating the stone Gothic cathedrals built by — undegreed — master builders.”*
+
+This project merges Gothic sacred woodworking with modern automation technology.
+* **Wireless Sync:** Altar and prie-dieu lighting synchronized via **ESP_NOW**.
+* **Custom Hardware:** Rotary encoders featuring **custom machined brass knobs** for control.
+* **Craftsmanship:** Woodworking in **spanish cedar** (*Cedrela odorata*) that seeks to replicate, as faithfully as possible, the architecture of **ancient Gothic cathedrals**.
+
+
 
 - [Repo: led_lamp](https://github.com/aluiziotomazelli/led_lamp)
 
@@ -51,6 +50,16 @@ Gothic prie-dieu lighting
 <img src="images/IMG_20250829_124413~2.jpg" width="400" alt="Custom-made brass knob">
 
 Custom-made brass rotary encoder knob
+
+
+---
+#### WiFi Manager ESP-IDF component (Espressif Registry)
+
+- [Dev.to wifi_manager](https://dev.to/aluiziotomazelli/wifimanager-a-wi-fi-state-manager-for-esp-idf-ejg)
+
+- [wifi_manager](https://github.com/aluiziotomazelli/wifi_manager)
+
+- [WiFiManager ESP-IDF component](https://components.espressif.com/components/aluiziotomazelli/wifi_manager/versions/1.0.0/readme)
 
 
 ---
