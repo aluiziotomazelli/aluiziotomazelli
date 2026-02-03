@@ -8,7 +8,7 @@ Working with ESP32, C++, and IoT systems.
 ### Projects
 
 [WiFi Manager](https://github.com/aluiziotomazelli/wifi_manager) - ESP-IDF component (Espressif Registry)  
-[smart-farm](https://github.com/aluiziotomazelli/smart-farm) - WIP - Smart Solar Load Management System, ESP-NOW communication protocol
+[smart-farm](https://github.com/aluiziotomazelli/smart-farm) - WIP - Smart Solar Load Management System, ESP-NOW communication protocol  
 [led_lamp](https://github.com/aluiziotomazelli/led_lamp) - WS2812 addressable lighting for liturgical oratories, including a realistic candle effect.
 
 
@@ -16,7 +16,8 @@ Smart devices - Hardware + firmware integration
 
 ### Skills
 
-Woodworking - Machining - C/C++ - ESP-IDF - IoT - Hardware Integration
+Woodworking - Machinist  
+C/C++ - ESP-IDF - IoT - Hardware Integration
 
 ### Currently
 
@@ -39,10 +40,17 @@ Learning embedded testing - Building agricultural IoT systems
 
 - [Repo: led_lamp](https://github.com/aluiziotomazelli/led_lamp)
 
-![Gothic household](images/IMG-20260111-WA0005.jpg)
+<img src="images/IMG-20260111-WA0005.jpg" width="400" alt="Gothic household and prie-dieu"> 
+
 Gothic household and prie-dieu lighting synchronized via ESP_NOW
 
-![Embedded controls](images/IMG_20250829_124413~2.jpg)
+<img src="images/088_IMG-20260111-WA0008.jpg" width="400" alt="Gothic prie-dieu">
+
+Gothic prie-dieu lighting
+
+<img src="images/IMG_20250829_124413~2.jpg" width="400" alt="Custom-made brass knob">
+
 Custom-made brass rotary encoder knob
+
 
 ---
