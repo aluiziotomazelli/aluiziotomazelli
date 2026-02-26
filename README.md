@@ -1,65 +1,74 @@
 ## Aluizio Tomazelli
 
-Woodworker & machinist.  
-Maker & programmer by enthusiasm and necessity.
+Woodworker & machinist by trade. Maker & programmer by enthusiasm and necessity.
 
-Working with ESP32, C++, and IoT systems.
+I build furniture meant to last decades — pieces designed with the same attention to detail and longevity I try to bring to firmware. Most of what I program starts as a real problem: a washing machine with a burned control board, a small farm that needed automation, a Gothic altar that needed wireless lighting.
+
+Working with ESP32, C++, and ESP-IDF. Focused on clean component architecture, unit testing with GoogleTest/GMock, and CI with GitHub Actions.
+
+---
 
 ### Projects
 
-[WiFi Manager](https://github.com/aluiziotomazelli/wifi_manager) - ESP-IDF component (Espressif Registry)  
-[smart-farm](https://github.com/aluiziotomazelli/smart-farm) - WIP - Smart Solar Load Management System, ESP-NOW communication protocol  
-[led_lamp](https://github.com/aluiziotomazelli/led_lamp) - WS2812 addressable lighting for liturgical oratories, including a realistic candle effect.
+#### 🧪 GTest with ESP-IDF — tutorial series
+A step-by-step guide to integrating GoogleTest into ESP-IDF for host-based unit testing — no board, no flashing, just fast feedback. Covers the GTest wrapper, `esp_err_t` integration, GMock, hardware abstraction, and CI with the official Espressif container.
 
+- [gtest-esp-idf](https://github.com/aluiziotomazelli/gtest-esp-idf)
 
-Smart devices - Hardware + firmware integration
+#### 📡 Ultrasonic Sensor — ESP-IDF component
+A mature HC-SR04 driver built as a proper ESP-IDF component with interfaces, clean architecture, and GoogleTest/GMock host tests running in CI.
 
-### Skills
+- [ultrasonic_sensor](https://github.com/aluiziotomazelli/ultrasonic_sensor)
 
-Woodworking - Machinist  
-C/C++ - ESP-IDF - IoT - Hardware Integration
+#### 📶 WiFi Manager — ESP-IDF component (Espressif Registry)
+A Wi-Fi state manager for ESP-IDF, published on the Espressif Component Registry. Fully refactored with C++ classes and single responsibility.
 
-### Currently
+- [wifi_manager](https://github.com/aluiziotomazelli/wifi_manager)
+- [Espressif Registry](https://components.espressif.com/components/aluiziotomazelli/wifi_manager/versions/1.0.0/readme) - v1.0.0 without refactoring
+- [Dev.to article](https://dev.to/aluiziotomazelli/wifimanager-a-wi-fi-state-manager-for-esp-idf-ejg)
 
-Learning embedded testing - Building agricultural IoT systems
- 
- ---
+#### 📻 ESP-NOW Manager — WIP
+ESP-NOW communication layer for ESP32. In progress.
 
-### Featured Projects:
+- [espnow_manager](https://github.com/aluiziotomazelli/espnow_manager)
 
-#### Gothic household altar with prie-dieu
-> *“Wood structure replicating the stone Gothic cathedrals built by — undegreed — master builders.”*
+#### 🌱 Smart Farm — WIP
+Solar load management system using ESP-NOW. The components above were built for this project — they'll be integrated as dependencies once mature.
 
-This project merges Gothic sacred woodworking with modern automation technology.
-* **Wireless Sync:** Altar and prie-dieu lighting synchronized via **ESP_NOW**.
-* **Custom Hardware:** Rotary encoders featuring **custom machined brass knobs** for control.
-* **Craftsmanship:** Woodworking in **spanish cedar** (*Cedrela odorata*) that seeks to replicate, as faithfully as possible, the architecture of **ancient Gothic cathedrals**.
+- [smart-farm](https://github.com/aluiziotomazelli/smart-farm)
 
+---
 
+### Featured build: Gothic household altar with prie-dieu
 
-- [Repo: led_lamp](https://github.com/aluiziotomazelli/led_lamp)
+> *"Wood structure replicating the stone Gothic cathedrals built by — undegreed — master builders."*
 
-<img src="images/IMG-20260111-WA0005.jpg" width="400" alt="Gothic household and prie-dieu"> 
+Spanish cedar woodworking that seeks to replicate, as faithfully as possible, the architecture of ancient Gothic cathedrals — combined with modern wireless automation.
 
-Gothic household and prie-dieu lighting synchronized via ESP_NOW
+- **Wireless sync:** Altar and prie-dieu lighting synchronized via ESP-NOW
+- **Custom hardware:** Rotary encoders with custom machined brass knobs
+- **Firmware:** [led_lamp](https://github.com/aluiziotomazelli/led_lamp) — WS2812 addressable lighting with a realistic candle effect
+
+<img src="images/IMG-20260111-WA0005.jpg" width="400" alt="Gothic household altar and prie-dieu">
+
+*Gothic household altar and prie-dieu — lighting synchronized via ESP-NOW*
 
 <img src="images/088_IMG-20260111-WA0008.jpg" width="400" alt="Gothic prie-dieu">
 
-Gothic prie-dieu lighting
+*Gothic prie-dieu lighting*
 
-<img src="images/IMG_20250829_124413~2.jpg" width="400" alt="Custom-made brass knob">
+<img src="images/IMG_20250829_124413~2.jpg" width="400" alt="Custom-made brass rotary encoder knob">
 
-Custom-made brass rotary encoder knob
-
-
----
-#### WiFi Manager ESP-IDF component (Espressif Registry)
-
-- [Dev.to wifi_manager](https://dev.to/aluiziotomazelli/wifimanager-a-wi-fi-state-manager-for-esp-idf-ejg)
-
-- [wifi_manager](https://github.com/aluiziotomazelli/wifi_manager)
-
-- [WiFiManager ESP-IDF component](https://components.espressif.com/components/aluiziotomazelli/wifi_manager/versions/1.0.0/readme)
-
+*Custom-made brass rotary encoder knob*
 
 ---
+
+### Skills
+
+`C++` · `ESP-IDF` · `ESP32` · `GoogleTest` · `GMock` · `FreeRTOS` · `ESP-NOW` · `CMake` · `GitHub Actions` · `IoT` · `Woodworking` · `Machining`
+
+---
+
+### Currently
+
+Building the `gtest-esp-idf` tutorial series · Refactoring components with clean architecture and host-based tests · Open to freelance work in ESP32 firmware development and code refactoring
