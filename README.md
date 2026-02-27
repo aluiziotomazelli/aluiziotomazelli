@@ -34,6 +34,15 @@ A Wi-Fi state manager for ESP-IDF, published on the Espressif Component Registry
 - [Espressif Registry](https://components.espressif.com/components/aluiziotomazelli/wifi_manager/versions/1.0.0/readme)
 - [Dev.to article](https://dev.to/aluiziotomazelli/wifimanager-a-wi-fi-state-manager-for-esp-idf-ejg)
 
+#### 🔋 Power Control
+[![ESP-IDF Build](https://github.com/aluiziotomazelli/power_control/actions/workflows/build.yml/badge.svg)](https://github.com/aluiziotomazelli/power_control/actions/workflows/build.yml)
+[![Host tests](https://github.com/aluiziotomazelli/power_control/actions/workflows/host_test.yml/badge.svg)](https://github.com/aluiziotomazelli/power_control/actions/workflows/host_test.yml)
+[![Coverage Report](https://img.shields.io/badge/coverage-report-blue)](https://aluiziotomazelli.github.io/power_control/coverage/index.html)
+
+A component for controlling power to external devices via GPIO, specifically designed for sensor applications in low-power systems.
+
+- [power_control](https://github.com/aluiziotomazelli/power_control)
+
 #### 📻 ESP-NOW Manager — WIP
 ESP-NOW communication layer for ESP32. In progress.
 
