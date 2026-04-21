@@ -43,8 +43,12 @@ A component for controlling power to external devices via GPIO, specifically des
 
 - [power_control](https://github.com/aluiziotomazelli/power_control)
 
-#### 📻 ESP-NOW Manager — WIP
-ESP-NOW communication layer for ESP32. In progress.
+#### 📻 ESP-NOW Manager
+[![ESP-IDF Build](https://github.com/aluiziotomazelli/espnow_manager/actions/workflows/build.yml/badge.svg)](https://github.com/aluiziotomazelli/espnow_manager/actions/workflows/build.yml)
+[![Host Tests](https://github.com/aluiziotomazelli/espnow_manager/actions/workflows/host_test.yml/badge.svg)](https://github.com/aluiziotomazelli/espnow_manager/actions/workflows/host_test.yml)
+[![Coverage](https://img.shields.io/badge/coverage-95%25-orange)](https://aluiziotomazelli.github.io/espnow_manager/index.html)
+
+ESP-NOW communication layer for ESP32 devices that provides reliable, structured communication built on top of ESP-NOW (Espressif's low-power, peer-to-peer wireless protocol). Automatic pairing (no need of hardcoded MAC), peer management, node scan for correct HUB channel.
 
 - [espnow_manager](https://github.com/aluiziotomazelli/espnow_manager)
 
